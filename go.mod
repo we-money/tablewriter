@@ -1,4 +1,4 @@
-require github.com/we-money/tablewriter
+module github.com/we-money/tablewriter
 
 go 1.12
 
