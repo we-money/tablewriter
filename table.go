@@ -98,7 +98,7 @@ func NewWriter(writer io.Writer) *Table {
 		caption:       false,
 		captionText:   "Table caption.",
 		autoFmt:       true,
-		autoWrap:      true,
+		autoWrap:      false,
 		reflowText:    true,
 		mW:            MAX_ROW_WIDTH,
 		pCenter:       CENTER,
